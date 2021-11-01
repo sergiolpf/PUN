@@ -1,0 +1,57 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-pun-dev-113457-authRole",
+      "UnauthRoleArn": "arn:aws:iam::687628237597:role/amplify-pun-dev-113457-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::687628237597:role/amplify-pun-dev-113457-authRole",
+      "Region": "ap-southeast-2",
+      "DeploymentBucketName": "amplify-pun-dev-113457-deployment",
+      "UnauthRoleName": "amplify-pun-dev-113457-unauthRole",
+      "StackName": "amplify-pun-dev-113457",
+      "StackId": "arn:aws:cloudformation:ap-southeast-2:687628237597:stack/amplify-pun-dev-113457/4b92cdd0-383f-11ec-b2c0-06a04cedaf1e",
+      "AmplifyAppId": "d2yvt4lc1ynrwk"
+    }
+  },
+  "auth": {
+    "punf8a19809": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "loginMechanisms": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-pun-dev-113457-deployment/amplify-cfn-templates/auth/punf8a19809-cloudformation-template.yml",
+        "logicalId": "authpunf8a19809"
+      },
+      "lastPushTimeStamp": "2021-10-28T22:58:05.717Z",
+      "output": {
+        "UserPoolId": "ap-southeast-2_yGzrsBluL",
+        "AppClientIDWeb": "64jv1fg0uvk1jj3k9mc9a9q967",
+        "AppClientID": "6n5216mvir0rf441mer68nkmvg",
+        "IdentityPoolId": "ap-southeast-2:311ba482-a42d-48cf-9f6e-efdfdeadc7c5",
+        "UserPoolArn": "arn:aws:cognito-idp:ap-southeast-2:687628237597:userpool/ap-southeast-2_yGzrsBluL",
+        "IdentityPoolName": "punf8a19809_identitypool_f8a19809__dev",
+        "UserPoolName": "punf8a19809_userpool_f8a19809"
+      },
+      "lastPushDirHash": "JZdkuRAHz0I985S1IWldvCNhPQI="
+    }
+  }
+}
